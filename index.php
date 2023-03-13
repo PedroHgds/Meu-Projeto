@@ -60,6 +60,8 @@ if(isset($_POST['email'])|| isset($_POST['senha'])){
             <input type="password" name="senha">
         </p>
         <button type="submit">Entrar</button>
+        <h4>Voce ainda nao possui uma conta ?</h4>
+        <a href="cadastrar.php">Crie grátis</a>
     </form>
 </body>
 
